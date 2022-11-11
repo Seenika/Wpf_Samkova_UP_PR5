@@ -10,6 +10,9 @@
 
     <StackPanel Margin="5">
         <Label Margin="5">Пример обычной страницы</Label>
+        <TextBlock Margin="5">
+            Это обфчная страница. А это <Hyperlink NavigateUri="page2.xaml">ссфдка на другую страницу</Hyperlink>
+        </TextBlock>
         <Button Margin="5,0,5,0" Padding="5">OK</Button>
         <Button Padding="5" Margin="5">Close</Button>
     </StackPanel>
